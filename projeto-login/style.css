@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/Captura\ de\ tela\ 2026-02-27\ 184431\ -\ Copia.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+form{
+    border: solid #ffffff0a;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #00000060;
+    backdrop-filter: blur(3px);
+    height: 700px;
+    width: 600px;
+
+}
+h1{
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(2em);
+    background: url(img/960px-Flag_of_Brazil.svg.webp);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: not-allowed;
+   
+   
+  
+    
+}
+.login{
+   margin: 100px 45px 0px 45px;
+    color: #fff;
+   
+}
+.senha{
+    color: #fff;
+   margin: 10px 45px 0px 45px;
+}
+.Logar{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: #fff;
+    
+}
+#email{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+    
+}
+#pass{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+}
+footer{
+    color: #fff;
+    background-color: #00000060;
+    backdrop-filter: blur(1px);
+    padding: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: solid #ffffff0a;
+   box-shadow: rgba(0, 0, 0, 0.25) 3px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+
+}
+#assinatura{
+    height: 0px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #fff;
+  
+
+}
+#botao{
+
+    border: solid #ffffff31;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+}
+#botao:hover{
+
+    border: solid #ffffff31;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #00000091;
+    cursor: pointer;
+}
+
+.checkbox{
+    margin-left: 0px;
+    margin-right: 180px;
+    cursor: pointer;
+  
+}
+.assinatura:hover{
+    color: #b8b8b8;
+    cursor: pointer;
+    text-decoration: double;
+    text-decoration: color(#fff);
+
+}
