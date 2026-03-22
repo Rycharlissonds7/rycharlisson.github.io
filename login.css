@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    margin: 10px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     gap: 50px;
     border: solid #ffffff0a;
     border-radius: 50px;
@@ -27,8 +27,9 @@ main {
     background-color: #00000060;
     backdrop-filter: blur(4px);
     width: 100%;
-    max-width: 650px;
-    height: 650px;
+    max-width: 450px;
+    height: 100%;
+    max-height: 635px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,12 +42,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 450px;
+    max-width: 400px;
     width: 100%;
 }
 
 
 h1 {
+    text-align: center;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
@@ -59,11 +61,16 @@ h1 {
     -webkit-text-fill-color: #ffffff31;
     background-position: center;
     background-size: cover;
+    max-width: 350px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    margin-top: 60px;
 }
 
 label {
     margin: 5px;
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     
@@ -137,6 +144,7 @@ label {
 #signature {
     color: #ffffff31;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 #signature:hover {
