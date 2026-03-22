@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Rubik+Glitch&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -26,13 +27,15 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-color: #00000060;
     backdrop-filter: blur(4px);
-    width: 650px;
-    height: 750px;
+    max-width: 750px;
+    width: 100%;
+    max-height: 750px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
 
 }
 
@@ -40,7 +43,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 30px;
-   
+    max-width: 450px;
+    width: 100%;
+
 }
 
 label {
@@ -51,7 +56,9 @@ label {
 }
 
 h1 {
-    
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
@@ -69,7 +76,8 @@ h1 {
 
 
 .nome input {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: auto;
     padding: 10px;
     color: #fff;
@@ -82,7 +90,8 @@ h1 {
 }
 
 .email input {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: auto;
     padding: 10px;
     color: #fff;
@@ -95,7 +104,8 @@ h1 {
 }
 
 .sobrenome input {
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     height: auto;
     padding: 10px;
     color: #fff;
@@ -108,7 +118,8 @@ h1 {
 }
 
 .senha input {
-    width: 450px;
+    max-width: 650px;
+    width: 100%;
     height: auto;
     padding: 10px;
     color: #fff;
@@ -126,11 +137,11 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 #botao {
-  
+
     margin: 30px 0 30px 0px;
     padding: 10px 25px;
     font-size: 12pt;
@@ -140,6 +151,7 @@ h1 {
     background-color: transparent;
 
 }
+
 #botao:hover {
 
     border: solid #ffffff31;
@@ -148,11 +160,13 @@ h1 {
     background-color: #00000091;
     cursor: pointer;
 }
-#signature{
- color: #ffffff31;
- cursor: pointer;
+
+#signature {
+    color: #ffffff31;
+    cursor: pointer;
 }
-#signature:hover{
+
+#signature:hover {
 
     color: white;
 }
