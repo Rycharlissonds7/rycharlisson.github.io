@@ -6,7 +6,7 @@
 }
 
 body {
-     background-image: url(img/Captura\ de\ tela\ 2026-02-27\ 184431\ -\ Copia.png);
+    background-image: url(img/background1.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -26,7 +26,7 @@ main {
     background-color: #00000060;
     backdrop-filter: blur(4px);
     width: 650px;
-    height: 700px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,17 +46,13 @@ h1 {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
-    color: #fff;
     border-radius: 20px;
     border: solid #ffffff31;
     font-family: "Rubik Glitch", system-ui;
     font-weight: 400;
     font-style: normal;
-    cursor: pointer;
-    text-decoration: none;
-    background: url(img/960px-Flag_of_Brazil.svg.webp);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    cursor: text;
+    -webkit-text-fill-color: #ffffff31;
     background-position: center;
     background-size: cover;
 }
@@ -108,7 +104,7 @@ label {
 #botao {
   
     margin: 30px 0 30px 0px;
-    padding: 1px 25px;
+    padding: 10px 25px;
     font-size: 12pt;
     border: solid #ffffff31;
     border-radius: 20px;
@@ -123,4 +119,12 @@ label {
     color: white;
     background-color: #00000091;
     cursor: pointer;
+}
+#signature{
+ color: #ffffff31;
+ cursor: pointer;
+}
+#signature:hover{
+
+    color: white;
 }
