@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Rubik+Glitch&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/Captura\ de\ tela\ 2026-02-27\ 184431\ -\ Copia.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+main {
+
+    margin-top: 20px;
+    gap: 50px;
+    border: solid #ffffff0a;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #00000060;
+    backdrop-filter: blur(4px);
+    width: 650px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+
+label {
+    margin: 5px;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: #fff;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+    background: url(img/960px-Flag_of_Brazil.svg.webp);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-position: center;
+    background-size: cover;
+}
+
+.nome input {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+}
+
+.email input {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+}
+
+.sobrenome input {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+}
+
+.senha input {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    border: solid #ffffff31;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    outline: none;
+
+}
+
+.botaocfg {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#botao {
+  
+    margin: 30px 0 30px 0px;
+    padding: 10px 25px;
+    font-size: 12pt;
+    border: solid #ffffff31;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+
+}
+#botao:hover {
+
+    border: solid #ffffff31;
+    border-radius: 20px;
+    color: white;
+    background-color: #00000091;
+    cursor: pointer;
+}
