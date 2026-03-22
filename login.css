@@ -27,7 +27,7 @@ main {
     background-color: #00000060;
     backdrop-filter: blur(4px);
     width: 100%;
-    max-width: 390px;
+    max-width: 360px;
     height: 100%;
     max-height: 635px;
     display: flex;
@@ -43,7 +43,7 @@ form {
     flex-direction: column;
     gap: 30px;
     margin-top: 45px;
-    max-width: 330px;
+    max-width: 310px;
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ h1 {
     -webkit-text-fill-color: #ffffff31;
     background-position: center;
     background-size: cover;
-    max-width: 350px;
+    max-width: 310px;
     width: 100%;
     max-height: 200px;
     height: 100%;
@@ -151,6 +151,7 @@ label {
     cursor: pointer;
     position: absolute;
     margin-top: 550px;
+    margin-right: 10px;
 }
 
 #signature:hover {
