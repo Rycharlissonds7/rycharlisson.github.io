@@ -29,20 +29,27 @@ main {
     width: 100%;
     max-width: 360px;
     height: 100%;
-    max-height: 635px;
+    max-height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transform: scale(1.00);
+    transition: all 1.3s;
 
 
 }
+main:hover {
+    transform: scale(1.01);
+    transition: all 0.7s;
+
+}
+
 
 form {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 45px;
     max-width: 310px;
     width: 100%;
 }
@@ -50,7 +57,7 @@ form {
 
 h1 {
     text-align: center;
-    padding: 10px;
+   padding: 20px 0px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     border-radius: 20px;
@@ -64,9 +71,7 @@ h1 {
     background-size: cover;
     max-width: 310px;
     width: 100%;
-    max-height: 200px;
-    height: 100%;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 label {
@@ -76,6 +81,13 @@ label {
     color: #fff;
     
     
+}
+input{
+    transition: all 1s;
+    cursor: pointer;
+}
+input:hover{
+    transform: scale(1.02);
 }
 
 .email input {
@@ -90,6 +102,7 @@ label {
     background-color: transparent;
     backdrop-filter: blur(50px);
     outline: none;
+
 }
 
 .senha input {
@@ -125,6 +138,23 @@ label {
 
 }
 
+
+
+#signature {
+    color: #ffffff31;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 480px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+
+#signature:hover {
+
+    color: white;
+    transform: scale(1.05);
+    
+}
 #botao {
 
     margin:0px 0 30px 0px;
@@ -134,6 +164,7 @@ label {
     border-radius: 20px;
     color: white;
     background-color: transparent;
+    transition: all 0.4s;
 
 }
 
@@ -142,20 +173,12 @@ label {
     border: solid #ffffff31;
     border-radius: 20px;
     color: white;
-    background-color: #00000091;
+    background-color: #000000;
     cursor: pointer;
+    transform: scale(1.05);
 }
+a{
+    text-decoration: none;
+    color: rgb(185, 167, 0);
 
-#signature {
-    color: #ffffff31;
-    cursor: pointer;
-    position: absolute;
-    margin-top: 550px;
-    margin-right: 10px;
-}
-
-#signature:hover {
-
-    color: white;
-    
 }
